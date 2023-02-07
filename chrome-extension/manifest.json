@@ -1,0 +1,13 @@
+{
+    "name": "bookmarks-manager",
+    "version": "0.1.0",
+    "description": "bookmarks-manager",
+    "manifest_version": 3,
+    "permissions": [
+        "bookmarks"
+    ],
+    "action": {
+        "default_title": "Click to view a popup",
+        "default_popup": "setting.html"
+    }
+}
