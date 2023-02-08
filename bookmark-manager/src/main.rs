@@ -139,7 +139,7 @@ fn parse_conditions_to_sql(conditions: Vec<String>) -> String {
             sql_condition.push(format!("({})", or_conditions_sql.join(" or ")));
         }
     }
-    sql_condition.join(" or ")
+    sql_condition.join(" and ")
 }
 
 // 转换
